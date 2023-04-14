@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
 })
 export class PaymentsService {
   baseUrl = 'https://3kniis.sse.codesandbox.io/payments/';
-  token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InBpY3BheS13ZWIiLCJzdWIiOiI2MmI0YTk4MGVkYTY5ODVjNTNiN2ExY2UiLCJpYXQiOjE2ODEzODc0MTMsImV4cCI6MTY4MTQ3MzgxM30.iEtXsEe46I8wOIjvyxbuHEdZ_A5WyjEFi34xcKM6dPE';
+  token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InBpY3BheS13ZWIiLCJzdWIiOiI2MmI0YTk4MGVkYTY5ODVjNTNiN2ExY2UiLCJpYXQiOjE2ODE0NzY2ODUsImV4cCI6MTY4MTU2MzA4NX0.EkmaE3VzDDvyPjXMzMAzIwNJHTydIzbvMZ574q5cZas';
   headers = new HttpHeaders().set('Authorization', `Bearer ${this.token}`);
 
   constructor(private http: HttpClient) {}
